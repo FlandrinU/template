@@ -28,6 +28,9 @@ devtools::load_all()
 
 # You can list global variables here (or in a separate R script)
 
+targets::tar_visnetwork()
+targets::tar_make()
+targets::tar_visnetwork()
 
 ## Run Project ----
 
