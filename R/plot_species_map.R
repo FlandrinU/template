@@ -15,6 +15,8 @@ plot_species_on_map <- function( species_occurrences,
   
   coast <- sf::st_read("data/data-raw/ShapeFiles coast/GSHHS_h_L1.shp")
 
+  library(ggplot2)
+  
   map <- ggplot(coast) + 
     geom_sf() +
     coord_sf(xlim = crop_longitude, ylim = crop_latitude) +

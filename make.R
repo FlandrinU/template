@@ -12,12 +12,14 @@
 
 ## Install Dependencies (listed in DESCRIPTION) ----
 
-renv::restore()
-
+# renv::restore()
+# renv::init()
+# renv::install()
+# renv::status()
 
 ## Load Project Addins (R Functions and Packages) ----
 
-devtools::load_all(here::here())
+devtools::load_all()
 
 
 ## Global Variables ----

@@ -19,3 +19,7 @@
 # User-specific files ----
 README.html
 inst/doc
+
+# renv stuffs
+.Rprofile
+renv/
