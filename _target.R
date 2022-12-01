@@ -3,7 +3,7 @@ library(targets)
 list(
 
     # demo :
-    # target(cible1, cible1())
+    # tar_target(cible1, cible1())
 
 
 
