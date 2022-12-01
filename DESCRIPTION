@@ -20,4 +20,5 @@ Imports:
     devtools,
     here,
     renv,
-    targets
+    targets,
+    sf
