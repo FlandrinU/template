@@ -16,6 +16,8 @@
 # renv::init()
 # renv::install()
 # renv::status()
+# renv::snapshot()
+
 
 ## Load Project Addins (R Functions and Packages) ----
 
