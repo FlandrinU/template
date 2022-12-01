@@ -21,7 +21,7 @@ plot_species_on_map <- function( species_occurrences,
     geom_sf() +
     coord_sf(xlim = crop_longitude, ylim = crop_latitude) +
     geom_point(data = species_occurrences , 
-               aes(x = longitude, y = latitude, fill = species),
+               aes(x = longitude, y = latitude, color =species, fill = species),
                size=0.5) +
     ggtitle("OBIS observations of species")+
     theme_light()+
