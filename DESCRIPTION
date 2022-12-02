@@ -21,7 +21,9 @@ Imports:
     dplyr,
     ggplot2,
     here,
+    quarto,
     renv,
     sf,
+    tarchetypes,
     targets,
     visNetwork

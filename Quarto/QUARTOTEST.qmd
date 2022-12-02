@@ -1,28 +1,53 @@
 ---
-title: "QUARTOTEST"
-format: revealjs
-editor: visual
+title: "Projet délirant"
+format:
+  revealjs: 
+    theme: [white, custom.scss]
 ---
 
 ## Présentation mini-projet
 
-::: {layout="[[20,20], [20,20]]"}
+:::: {.columns}
 
+::: {.column}
 
-![synchiropus-splendidus](images/synchiropus-splendidus.jpeg)  
-![chelon-ramada](images/chelon-ramada.jpeg)
-![Dicentrarchus-labrax](images/Dicentrarchus-labrax.jpeg)
-![Zeus-faber](images/Zeus-faber.jpeg)  
+![](images/synchiropus-splendidus.jpeg){height="200"}
+
+[Synchiropus splendidus]{.small}
+
+![](images/chelon-ramada.jpeg){height="200"}
+
+[Chelon ramada]{.small}
+
 :::
 
-::: aside
+::: {.column}
+
+![](images/Dicentrarchus-labrax.jpeg){height="200"}
+[Dicentrarchus labrax]{.small}
+
+![](images/Zeus-faber.jpeg){height="200"}
+
+[Zeus faber]{.small}
+
+:::
+
+
+::::
+
+::: footer
 Romain fernandez Ulysse Flandrin Baptiste Frattini Loic Sanchez
 :::
 
-## globiboulga
 
-## globiboulgaga
+
+## Species occurrences
+```{r}
+#tar_load()
+```
+
+## Project diagramm
 
 ```{r}
-1 + 1
+targets::tar_visnetwork()
 ```

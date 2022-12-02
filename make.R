@@ -16,14 +16,11 @@
 # renv::status()
 # renv::snapshot()
 
-## Global Variables ----
-
-# You can list global variables here (or in a separate R script)
-
-targets::tar_visnetwork()
-targets::tar_make()
 
 
 ## Run Project ----
 
+targets::tar_visnetwork()
 targets::tar_make()
+quarto::quarto_render(input ="Quarto/QUARTOTEST.qmd")
+

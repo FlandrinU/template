@@ -7,9 +7,9 @@
 <link href="QUARTOTEST_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="QUARTOTEST_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="QUARTOTEST_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.2.269">
+  <meta name="generator" content="quarto-1.2.267">
 
-  <title>QUARTOTEST</title>
+  <title>Projet délirant</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -317,13 +317,17 @@
       margin-right: 0; 
     }
   </style>
+  <script src="QUARTOTEST_files/libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+  <link href="QUARTOTEST_files/libs/vis-9.1.0/vis-network.min.css" rel="stylesheet">
+  <script src="QUARTOTEST_files/libs/vis-9.1.0/vis-network.min.js"></script>
+  <script src="QUARTOTEST_files/libs/visNetwork-binding-2.1.2/visNetwork.js"></script>
 </head>
 <body class="quarto-light">
   <div class="reveal">
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">QUARTOTEST</h1>
+  <h1 class="title">Projet délirant</h1>
 
 <div class="quarto-title-authors">
 </div>
@@ -331,26 +335,34 @@
 </section>
 <section id="présentation-mini-projet" class="slide level2">
 <h2>Présentation mini-projet</h2>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img data-src="images/synchiropus-splendidus.jpeg" alt="synchiropus-splendidus"><br>
-<img data-src="images/chelon-ramada.jpeg" alt="chelon-ramada"> <img data-src="images/Dicentrarchus-labrax.jpeg" alt="Dicentrarchus-labrax"> <img data-src="images/Zeus-faber.jpeg" alt="Zeus-faber"></p>
+<div class="columns">
+<div class="column">
+<p><img data-src="images/synchiropus-splendidus.jpeg" height="200"></p>
+<p><span class="small">Synchiropus splendidus</span></p>
+<p><img data-src="images/chelon-ramada.jpeg" height="200"></p>
+<p><span class="small">Chelon ramada</span></p>
+</div><div class="column">
+<p><img data-src="images/Dicentrarchus-labrax.jpeg" height="200"> <span class="small">Dicentrarchus labrax</span></p>
+<p><img data-src="images/Zeus-faber.jpeg" height="200"></p>
+<p><span class="small">Zeus faber</span></p>
 </div>
 </div>
-</div>
-
-<aside><div>
+<div class="footer">
 <p>Romain fernandez Ulysse Flandrin Baptiste Frattini Loic Sanchez</p>
-</div></aside></section>
-<section id="globiboulga" class="slide level2">
-<h2>globiboulga</h2>
+</div>
 </section>
-<section id="globiboulgaga" class="slide level2">
-<h2>globiboulgaga</h2>
+<section id="species-occurrences" class="slide level2">
+<h2>Species occurrences</h2>
 <div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
+
+</div>
+</section>
+<section id="project-diagramm" class="slide level2">
+<h2>Project diagramm</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div id="htmlwidget-e21b3e66563ee1a5284f" style="width:960px;height:480px;" class="visNetwork html-widget"></div>
+<script type="application/json" data-for="htmlwidget-e21b3e66563ee1a5284f">{"x":{"nodes":{"name":["clean_df_fish","df_fish","path","plot_species","report","plot_species_on_map","load_fish","tidy_fish"],"type":["stem","stem","stem","stem","stem","function","function","function"],"status":["uptodate","uptodate","uptodate","uptodate","started","uptodate","uptodate","uptodate"],"seconds":[0.094,2.154,0.001,17.056,4.25,null,null,null],"bytes":[216087,2637135,64,84,35571,null,null,null],"branches":[null,null,null,null,null,null,null,null],"label":["clean_df_fish","df_fish","path","plot_species","report","plot_species_on_map","load_fish","tidy_fish"],"color":["#354823","#354823","#354823","#354823","#DC863B","#354823","#354823","#354823"],"id":["clean_df_fish","df_fish","path","plot_species","report","plot_species_on_map","load_fish","tidy_fish"],"level":[3,2,1,4,0,1,1,1],"shape":["dot","dot","dot","dot","dot","triangle","triangle","triangle"]},"edges":{"from":["clean_df_fish","plot_species_on_map","df_fish","tidy_fish","load_fish","path"],"to":["plot_species","plot_species","clean_df_fish","clean_df_fish","df_fish","df_fish"],"arrows":["to","to","to","to","to","to"]},"nodesToDataframe":true,"edgesToDataframe":true,"options":{"width":"100%","height":"100%","nodes":{"shape":"dot","physics":false},"manipulation":{"enabled":false},"edges":{"smooth":{"type":"cubicBezier","forceDirection":"horizontal"}},"physics":{"stabilization":false},"interaction":{"zoomSpeed":1},"layout":{"hierarchical":{"enabled":true,"direction":"LR"}}},"groups":null,"width":null,"height":null,"idselection":{"enabled":false,"style":"width: 150px; height: 26px","useLabels":true,"main":"Select by id"},"byselection":{"enabled":false,"style":"width: 150px; height: 26px","multiple":false,"hideColor":"rgba(200,200,200,0.5)","highlight":false},"main":{"text":"","style":"font-family:Georgia, Times New Roman, Times, serif;font-weight:bold;font-size:20px;text-align:center;"},"submain":null,"footer":null,"background":"rgba(0, 0, 0, 0)","highlight":{"enabled":true,"hoverNearest":false,"degree":{"from":1,"to":1},"algorithm":"hierarchical","hideColor":"rgba(200,200,200,0.5)","labelOnly":true},"collapse":{"enabled":true,"fit":false,"resetHighlight":true,"clusterOptions":null,"keepCoord":true,"labelSuffix":"(cluster)"},"legend":{"width":0.2,"useGroups":false,"position":"right","ncol":1,"stepX":100,"stepY":100,"zoom":true,"nodes":{"label":["Up to date","Started","Stem","Function"],"color":["#354823","#DC863B","#899DA4","#899DA4"],"shape":["dot","dot","dot","triangle"]},"nodesToDataframe":true},"tooltipStay":300,"tooltipStyle":"position: fixed;visibility:hidden;padding: 5px;white-space: nowrap;font-family: verdana;font-size:14px;font-color:#000000;background-color: #f5f4ed;-moz-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;border: 1px solid #808074;box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);"},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <div class="footer footer-default">
