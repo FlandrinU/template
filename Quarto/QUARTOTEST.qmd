@@ -1,22 +1,27 @@
 ---
-title: "QUARTO TEST"
+title: "QUARTOTEST"
 format: revealjs
 editor: visual
 ---
 
 ## Présentation mini-projet
 
-![synchiropus-splendidus](images/synchiropus-splendidus.jpeg){fig-align="left"}
+::: {layout="[[20,20], [20,20]]"}
+
+
+![synchiropus-splendidus](images/synchiropus-splendidus.jpeg)  
+![chelon-ramada](images/chelon-ramada.jpeg)
+![Dicentrarchus-labrax](images/Dicentrarchus-labrax.jpeg)
+![Zeus-faber](images/Zeus-faber.jpeg)  
+:::
 
 ::: aside
-Romain fernandez Ulysse Flandrin Baptiste Frattini Loic ?
+Romain fernandez Ulysse Flandrin Baptiste Frattini Loic Sanchez
 :::
 
 ## globiboulga
 
-
 ## globiboulgaga
-
 
 ```{r}
 1 + 1
