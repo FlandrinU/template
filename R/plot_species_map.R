@@ -39,6 +39,6 @@ plot_species_on_map <- function( species_occurrences,
   
   ggsave("outputs/species_occurrences.png", plot = map, width=15, height=10)
   
-  return(here::here("outputs", "species_occurrences.png"))
+  return(here::here("outputs", "species_occurrences.png")) # Penser à mettre format file dans targets
   
 } # end of function
