@@ -9,7 +9,7 @@
 
 
 plot_species_on_map <- function( species_occurrences, 
-                                 crop_longitude = c(-60, 60), 
+                                 crop_longitude = c(-60, 60), #change these arguments to crop x and y
                                  crop_latitude =  c(-10, 55)
                                  ){
   
@@ -32,7 +32,7 @@ plot_species_on_map <- function( species_occurrences,
       axis.title.y = element_text(face = "bold"),
       axis.title.x = element_text(face = "bold")
       )
-  
+
   file_path <- file.path("outputs", "species_occurrences.jpg")
   ggsave(file_path, plot = map, width=15, height=10)
   return(file_path)
