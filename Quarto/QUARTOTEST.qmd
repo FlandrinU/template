@@ -2,7 +2,9 @@
 title: "Projet délirant"
 format:
   revealjs: 
+    footer: "Romain fernandez Ulysse Flandrin Baptiste Frattini Loic Sanchez"
     theme: [white, custom.scss]
+self-contained: true
 ---
 
 ## Présentation mini-projet
@@ -36,15 +38,21 @@ format:
 ::::
 
 ::: footer
-Romain fernandez Ulysse Flandrin Baptiste Frattini Loic Sanchez
+Source: google image
 :::
 
 
 
 ## Species occurrences
+
 ```{r}
-#tar_load()
+#| echo: false
+im_path <- paste0("../", targets::tar_read("plot_species"))
 ```
+
+
+![Données d'occurrences OBIS](`r im_path`)  
+
 
 ## Project diagramm
 

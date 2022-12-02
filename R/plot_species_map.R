@@ -9,8 +9,8 @@
 
 
 plot_species_on_map <- function( species_occurrences, 
-                                 crop_longitude = c(-180, 180), 
-                                 crop_latitude =  c(-80, 80)
+                                 crop_longitude = c(-60, 60), 
+                                 crop_latitude =  c(-10, 55)
                                  ){
   
   coast <- sf::st_read("data/raw-data/ShapeFiles coast/GSHHS_h_L1.shp")
@@ -33,8 +33,7 @@ plot_species_on_map <- function( species_occurrences,
       axis.title.x = element_text(face = "bold")
       )
   
-  ggsave("outputs/species_occurrences.png", plot = map, width=15, height=10)
-  
-  return("outputs/species_occurrences.png")
-  
+  file_path <- file.path("outputs", "species_occurrences.jpg")
+  ggsave(file_path, plot = map, width=15, height=10)
+  return(file_path)
 } # end of function
