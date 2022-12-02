@@ -23,4 +23,5 @@ Imports:
     here,
     renv,
     sf,
-    targets
+    targets,
+    visNetwork
