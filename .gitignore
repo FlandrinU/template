@@ -27,3 +27,6 @@ renv/
 # _targets
 
 _targets/
+
+# Output
+Output/
