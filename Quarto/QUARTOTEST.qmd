@@ -1,0 +1,23 @@
+---
+title: "QUARTO TEST"
+format: revealjs
+editor: visual
+---
+
+## Présentation mini-projet
+
+![synchiropus-splendidus](images/synchiropus-splendidus.jpeg){fig-align="left"}
+
+::: aside
+Romain fernandez Ulysse Flandrin Baptiste Frattini Loic ?
+:::
+
+## globiboulga
+
+
+## globiboulgaga
+
+
+```{r}
+1 + 1
+```
