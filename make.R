@@ -22,9 +22,7 @@
 
 targets::tar_source()
 targets::tar_visnetwork()
-targets::tar_make()
 
 ## Run Project ----
 
-# List all R scripts in a sequential order and using the following form:
-# source(here::here("analyses", "script_X.R"))
+targets::tar_make()
