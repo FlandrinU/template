@@ -23,7 +23,6 @@
 
 devtools::load_all()
 
-
 ## Global Variables ----
 
 # You can list global variables here (or in a separate R script)
