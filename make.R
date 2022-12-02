@@ -8,8 +8,6 @@
 #' 
 #' @date 2022/12/01
 
-
-
 ## Install Dependencies (listed in DESCRIPTION) ----
 
 # renv::restore()
@@ -18,18 +16,13 @@
 # renv::status()
 # renv::snapshot()
 
-
-## Load Project Addins (R Functions and Packages) ----
-
-devtools::load_all()
-
 ## Global Variables ----
 
 # You can list global variables here (or in a separate R script)
 
+targets::tar_source()
 targets::tar_visnetwork()
 targets::tar_make()
-targets::tar_visnetwork()
 
 ## Run Project ----
 
