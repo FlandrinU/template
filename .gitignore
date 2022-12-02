@@ -23,3 +23,7 @@ inst/doc
 # renv stuffs
 .Rprofile
 renv/
+
+# _targets
+
+_targets/
