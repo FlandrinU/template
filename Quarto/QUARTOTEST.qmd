@@ -7,16 +7,12 @@ editor: visual
 ## Présentation mini-projet
 
 ::: {layout="[[20,20], [20,20]]"}
-
-
-![synchiropus-splendidus](images/synchiropus-splendidus.jpeg)  
-![chelon-ramada](images/chelon-ramada.jpeg)
-![Dicentrarchus-labrax](images/Dicentrarchus-labrax.jpeg)
-![Zeus-faber](images/Zeus-faber.jpeg)  
+![synchiropus-splendidus](images/synchiropus-splendidus.jpeg)\
+![chelon-ramada](images/chelon-ramada.jpeg) ![Dicentrarchus-labrax](images/Dicentrarchus-labrax.jpeg) ![Zeus-faber](images/Zeus-faber.jpeg)
 :::
 
 ::: aside
-Romain fernandez Ulysse Flandrin Baptiste Frattini Loic Sanchez
+Romain fernandez Ulysse Flandrin Baptiste Frattini Loïc Sanchez
 :::
 
 ## globiboulga
