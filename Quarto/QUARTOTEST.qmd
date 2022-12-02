@@ -1,0 +1,28 @@
+---
+title: "QUARTO TEST"
+format: revealjs
+editor: visual
+---
+
+## Présentation mini-projet
+
+![synchiropus-splendidus](images/synchiropus-splendidus.jpeg){fig-align="left"}
+
+::: aside
+Romain fernandez Ulysse Flandrin Baptiste Frattini
+:::
+
+## Bullets
+
+When you click the **Render** button a document will be generated that includes:
+
+-   Content authored with markdown
+-   Output from executable code
+
+## Code
+
+When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
