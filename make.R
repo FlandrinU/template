@@ -20,8 +20,8 @@
 
 # You can list global variables here (or in a separate R script)
 
+targets::tar_source()
 targets::tar_visnetwork()
-targets::tar_make()
 
 ## Run Project ----
 
