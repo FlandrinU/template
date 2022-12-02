@@ -6,17 +6,18 @@ editor: visual
 
 ## Présentation mini-projet
 
-![synchiropus-splendidus](images/synchiropus-splendidus.jpeg){fig-align="left"}
+![synchiropus-splendidus](images/synchiropus-splendidus.jpeg){.absolute top="50" left="50" width="400" height="320"}
+![chelon-ramada](images/chelon-ramada.jpeg){.absolute top="300" left="450" width="400" height="320"}
+![Dicentrarchus-labrax](images/Dicentrarchus-labrax.jpeg){.absolute top="50" left="450" width="400" height="300"}
+![Zeus-faber](images/Zeus-faber.jpeg){.absolute top="450" left="50" width="400" height="280"}
 
 ::: aside
-Romain fernandez Ulysse Flandrin Baptiste Frattini Loic ?
+Romain fernandez Ulysse Flandrin Baptiste Frattini Loic Sanchez
 :::
 
 ## globiboulga
 
-
 ## globiboulgaga
-
 
 ```{r}
 1 + 1
