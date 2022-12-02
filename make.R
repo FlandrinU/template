@@ -30,7 +30,6 @@ devtools::load_all()
 
 targets::tar_visnetwork()
 targets::tar_make()
-targets::tar_visnetwork()
 
 ## Run Project ----
 
